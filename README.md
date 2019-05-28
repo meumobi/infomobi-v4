@@ -54,10 +54,14 @@
 
 
 # Implementation flow
+
+## Scaffold App
 $ npm install ionic typescript -g
 $ ionic start nfmb-v4 tabs --type=angular
-- Add split pane and side menu
+
+## Add split pane and side menu
+## Create login page
 $ ionic g page login
-- Disable menu on login page
+## Disable menu on login page
 ## Split each feature into a lazy loaded module
 - Add menu icon (hamburguer) on tab pages
